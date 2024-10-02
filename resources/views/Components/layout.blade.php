@@ -16,8 +16,7 @@
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <img class="h-8 w-8" src="https://laracasts.com/images/logo/logo-triangle.svg"
-                                 alt="Your Company">
+                        <img src="{{ asset('assets/ecorecyclogo (2).png') }}" alt="My Company Logo" width="60" height="60">
                         </div>
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
@@ -48,8 +47,8 @@
                                             id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                         <span class="absolute -inset-1.5"></span>
                                         <span class="sr-only">Open user menu</span>
-                                        <img class="h-8 w-8 rounded-full"
-                                             src="https://laracasts.com/images/lary-ai-face.svg" alt="">
+                                        <img class="h-10 w-10 rounded-full" src="{{ asset('assets/meprofile.jpg') }}" alt="">
+
                                     </button>
                                 </div>
                             </div>
@@ -84,20 +83,20 @@
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                     <a href="/" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
                        aria-current="page">Home</a>
-                    <a href="/about"
-                       class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
+                    <a href="/jobs"
+                       class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Jobs</a>
                     <a href="/contact"
                        class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
                 </div>
                 <div class="border-t border-gray-700 pb-3 pt-4">
                     <div class="flex items-center px-5">
                         <div class="flex-shrink-0">
-                            <img class="h-10 w-10 rounded-full" src="https://laracasts.com/images/lary-ai-face.svg"
-                                 alt="">
+                        <img class="h-10 w-10 rounded-full" src="{{ asset('assets/meprofile.jpg') }}" alt="">
+
                         </div>
                         <div class="ml-3">
-                            <div class="text-base font-medium leading-none text-white">Lary Robot</div>
-                            <div class="text-sm font-medium leading-none text-gray-400">jeffrey@laracasts.com</div>
+                            <div class="text-base font-medium leading-none text-white">Fretch Barbie Hugo</div>
+                            <div class="text-sm font-medium leading-none text-gray-400">fretchhiramis@gmail.com</div>
                         </div>
                         <button type="button"
                                 class="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
