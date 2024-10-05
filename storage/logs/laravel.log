@@ -13145,3 +13145,23 @@ Content-Transfer-Encoding: quoted-printable
 <p>
     <a href="http://localhost:8005/jobs/203">View Your Job Listing</a>
 </p>  
+[2024-10-05 15:35:23] local.DEBUG: From: admin@laracasts.com
+To: shaun21@example.net
+Subject: Job Posted
+MIME-Version: 1.0
+Date: Sat, 05 Oct 2024 15:35:23 +0000
+Message-ID: <24a1605e1c4fdf21975e6b5b1ca2bc87@laracasts.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<h2>
+    idolerns
+</h2>
+
+<p>
+    Congrats! Your job is now live on our website.
+</p>
+
+<p>
+    <a href="http://localhost:8005/jobs/204">View Your Job Listing</a>
+</p>  
